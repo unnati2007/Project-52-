@@ -1,0 +1,81 @@
+h1{
+    border: 2px solid #066c7e;
+    border-radius: 50px;
+    color:maroon;
+    justify-content: center;
+    background-color:thistle;
+    font-family: cursive;
+}
+
+.header{
+    border: 3px solid #5c0668;
+    border-radius: 50px;
+    background-color:aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+.bodyimg{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+
+body{
+    margin: 0px;
+    background-color:moccasin;
+}
+
+.grid{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: indianred;
+    padding: 70px;
+    margin: 65px;
+    width: 1200px;
+    font-family: fantasy;
+    margin-top: 30px;
+}
+
+.footer{
+    border: 3px solid #5c0668;
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h1,h2{
+    text-align: center;
+}
+
+a:link{
+    color:white;
+}
+
+a:visited{
+    color:red;
+}
+
+.origami{
+    position: relative;
+}
+
+.origami p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.origami:hover p{
+    opacity: 1;
+}
+
+.origami:hover img{
+    opacity : 0.33
+}
+
+.origami:hover{
+    transform: scale(1.2);
+}
